@@ -11,6 +11,7 @@
 		2328667B29FAC4EB0049CEFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328667A29FAC4EB0049CEFF /* ContentView.swift */; };
 		2328667D29FAC4EF0049CEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2328667C29FAC4EF0049CEFF /* Assets.xcassets */; };
 		2328668029FAC4EF0049CEFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2328667F29FAC4EF0049CEFF /* Preview Assets.xcassets */; };
+		2328668829FAF64E0049CEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2328668729FAF64E0049CEFF /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2328667C29FAC4EF0049CEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2328667F29FAC4EF0049CEFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2328668129FAC4EF0049CEFF /* EasyScreenshoot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyScreenshoot.entitlements; sourceTree = "<group>"; };
+		2328668729FAF64E0049CEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2328667C29FAC4EF0049CEFF /* Assets.xcassets */,
 				2328668129FAC4EF0049CEFF /* EasyScreenshoot.entitlements */,
 				2328667E29FAC4EF0049CEFF /* Preview Content */,
+				2328668729FAF64E0049CEFF /* AppDelegate.swift */,
 			);
 			path = EasyScreenshoot;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2328668829FAF64E0049CEFF /* AppDelegate.swift in Sources */,
 				2328667B29FAC4EB0049CEFF /* ContentView.swift in Sources */,
 				2328667929FAC4EB0049CEFF /* EasyScreenshootApp.swift in Sources */,
 			);

@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct EasyScreenshootApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self)
+    private var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
