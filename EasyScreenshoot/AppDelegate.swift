@@ -80,6 +80,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @objc private func actionExitApp(_ sender: Any?) {
-        
+        NSApp.terminate(self)
     }
 }
