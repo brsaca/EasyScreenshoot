@@ -2,6 +2,7 @@
 
 <p align="center">
 <a href="#">
+<img src="images/easyscreen.gif" align="center"> 
 </a>  
 <br><br>
 Mac app developed with SwiftUI 
@@ -19,8 +20,6 @@ Mac app developed with SwiftUI
 <a href="https://github.com/brenfondeadora/EasyScreenshoot/issues/new">Request feature</a>
 
 </p>
-
-## 🤖 Requirements
 
 ## 👤 Author
 
