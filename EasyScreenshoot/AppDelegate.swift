@@ -68,15 +68,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     // MARK: - Actions
     @objc private func actionSelectArea(_ sender: Any?) {
-        
+        ScreenCaptureUtil.screenshoot(type: .UserSelection)
     }
     
     @objc private func actionCaptureEntireScreen(_ sender: Any?) {
-        
+        ScreenCaptureUtil.screenshoot(type: .EntireScreen)
     }
     
     @objc private func actionCaptureWindow(_ sender: Any?) {
-        
+        ScreenCaptureUtil.screenshoot(type: .Window)
     }
     
     @objc private func actionExitApp(_ sender: Any?) {
