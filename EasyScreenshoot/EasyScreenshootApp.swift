@@ -13,7 +13,7 @@ struct EasyScreenshootApp: App {
     private var appDelegate
     
     var body: some Scene {
-        WindowGroup {
+        Settings {
             ContentView()
         }
     }
